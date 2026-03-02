@@ -6,22 +6,17 @@ namespace MacroDeck.Pomodoro
     public class PomodoroAction : PluginAction
     {
         public override string Name => "Toggle Pomodoro";
-
         public override string Description => "Inicia o pausa el temporizador Pomodoro";
-
         public override bool CanConfigure => false;
 
+        // Si tu versión lo pide, dejalo así:
 
         public override void Trigger(string clientId, ActionButton actionButton)
         {
             if (!PomodoroTimer.IsRunning)
-            {
-                PomodoroTimer.Start();
-            }
+                PomodoroTimer.Start(25);
             else
-            {
                 PomodoroTimer.Pause();
-            }
         }
     }
 }
