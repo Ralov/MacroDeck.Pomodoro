@@ -1,0 +1,9 @@
+{
+    "type": "Plugin",
+    "name": "Pomodoro",
+    "author": "Sebastian",
+    "packageId": "Sebastian.Pomodoro",
+    "version": "1.0.0",
+    "target-plugin-api-version": 40,
+    "dll": "Sebastian.Pomodoro.dll"
+}

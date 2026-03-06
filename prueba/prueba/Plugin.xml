@@ -1,0 +1,6 @@
+﻿<?xml version="1.0"?>
+<PluginManifest>
+	<PackageId>prueba</PackageId>
+	<Author>Sebastian</Author>
+	<MainFile>prueba.dll</MainFile>
+</PluginManifest>

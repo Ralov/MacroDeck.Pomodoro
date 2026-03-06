@@ -1,0 +1,9 @@
+{
+    "type": "Plugin",
+    "name": "prueba1",
+    "author": "Sebastian",
+    "packageId": "Sebastian.Prueba1",
+    "version": "1.0.0",
+    "target-plugin-api-version": 40,
+    "dll": "prueba1.dll"
+}

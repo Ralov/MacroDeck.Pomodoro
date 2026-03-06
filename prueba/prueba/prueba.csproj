@@ -1,0 +1,16 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+	<PropertyGroup>
+		<TargetFramework>netcoreapp3.1</TargetFramework>
+		<UseWindowsForms>true</UseWindowsForms>
+		<AssemblyName>Sebastian.Prueba</AssemblyName>
+		<RootNamespace>Sebastian.Prueba</RootNamespace>
+	</PropertyGroup>
+
+	<ItemGroup>
+		<Reference Include="Macro Deck 2">
+			<HintPath>C:\Program Files\Macro Deck\Macro Deck 2.dll</HintPath>
+		</Reference>
+	</ItemGroup>
+
+</Project>
